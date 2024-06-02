@@ -1,0 +1,86 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/dotenv@^0.224.0": "jsr:@std/dotenv@0.224.0",
+      "npm:viem": "npm:viem@2.13.2_ws@8.13.0"
+    },
+    "jsr": {
+      "@std/dotenv@0.224.0": {
+        "integrity": "d9234cdf551507dcda60abb6c474289843741d8c07ee8ce540c60f5c1b220a1d"
+      }
+    },
+    "npm": {
+      "@adraffy/ens-normalize@1.10.0": {
+        "integrity": "sha512-nA9XHtlAkYfJxY7bce8DcN7eKxWWCWkU+1GR9d+U6MbNpfwQp8TI7vqOsBsMcHoT4mBu2kypKoSKnghEzOOq5Q==",
+        "dependencies": {}
+      },
+      "@noble/curves@1.2.0": {
+        "integrity": "sha512-oYclrNgRaM9SsBUBVbb8M6DTV7ZHRTKugureoYEncY5c65HOmRzvSiTE3y5CYaPYJA/GVkrhXEoF0M3Ya9PMnw==",
+        "dependencies": {
+          "@noble/hashes": "@noble/hashes@1.3.2"
+        }
+      },
+      "@noble/hashes@1.3.2": {
+        "integrity": "sha512-MVC8EAQp7MvEcm30KWENFjgR+Mkmf+D189XJTkFIlwohU5hcBbn1ZkKq7KVTi2Hme3PMGF390DaL52beVrIihQ==",
+        "dependencies": {}
+      },
+      "@scure/base@1.1.6": {
+        "integrity": "sha512-ok9AWwhcgYuGG3Zfhyqg+zwl+Wn5uE+dwC0NV/2qQkx4dABbb/bx96vWu8NSj+BNjjSjno+JRYRjle1jV08k3g==",
+        "dependencies": {}
+      },
+      "@scure/bip32@1.3.2": {
+        "integrity": "sha512-N1ZhksgwD3OBlwTv3R6KFEcPojl/W4ElJOeCZdi+vuI5QmTFwLq3OFf2zd2ROpKvxFdgZ6hUpb0dx9bVNEwYCA==",
+        "dependencies": {
+          "@noble/curves": "@noble/curves@1.2.0",
+          "@noble/hashes": "@noble/hashes@1.3.2",
+          "@scure/base": "@scure/base@1.1.6"
+        }
+      },
+      "@scure/bip39@1.2.1": {
+        "integrity": "sha512-Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg==",
+        "dependencies": {
+          "@noble/hashes": "@noble/hashes@1.3.2",
+          "@scure/base": "@scure/base@1.1.6"
+        }
+      },
+      "abitype@1.0.0": {
+        "integrity": "sha512-NMeMah//6bJ56H5XRj8QCV4AwuW6hB6zqz2LnhhLdcWVQOsXki6/Pn3APeqxCma62nXIcmZWdu1DlHWS74umVQ==",
+        "dependencies": {}
+      },
+      "isows@1.0.4_ws@8.13.0": {
+        "integrity": "sha512-hEzjY+x9u9hPmBom9IIAqdJCwNLax+xrPb51vEPpERoFlIxgmZcHzsT5jKG06nvInKOBGvReAVz80Umed5CczQ==",
+        "dependencies": {
+          "ws": "ws@8.13.0"
+        }
+      },
+      "viem@2.13.2_ws@8.13.0": {
+        "integrity": "sha512-9n64fjWL34Q8MQ0EksI77/okE8tiS9bQlGb11/JMGoaEE+MYJgG8yDAWX2srqp7MsBK7/ahoAWJZdMwgcFD65g==",
+        "dependencies": {
+          "@adraffy/ens-normalize": "@adraffy/ens-normalize@1.10.0",
+          "@noble/curves": "@noble/curves@1.2.0",
+          "@noble/hashes": "@noble/hashes@1.3.2",
+          "@scure/bip32": "@scure/bip32@1.3.2",
+          "@scure/bip39": "@scure/bip39@1.2.1",
+          "abitype": "abitype@1.0.0",
+          "isows": "isows@1.0.4_ws@8.13.0",
+          "ws": "ws@8.13.0"
+        }
+      },
+      "ws@8.13.0": {
+        "integrity": "sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.224.0/dotenv/mod.ts": "0180eaeedaaf88647318811cdaa418cc64dc51fb08354f91f5f480d0a1309f7d",
+    "https://deno.land/std@0.224.0/dotenv/parse.ts": "09977ff88dfd1f24f9973a338f0f91bbdb9307eb5ff6085446e7c423e4c7ba0c",
+    "https://deno.land/std@0.224.0/dotenv/stringify.ts": "275da322c409170160440836342eaa7cf012a1d11a7e700d8ca4e7f2f8aa4615"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/dotenv@^0.224.0"
+    ]
+  }
+}
