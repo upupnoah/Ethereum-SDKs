@@ -1,0 +1,13 @@
+[package]
+name = "alloy-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { git = "https://github.com/alloy-rs/alloy", version = "0.1.0", features = [
+    "contract",
+    "providers",
+] }
+dotenv = "0.15.0"
+eyre = "0.6.12"
+tokio = { version = "1.38.0", features = ["full"] }
